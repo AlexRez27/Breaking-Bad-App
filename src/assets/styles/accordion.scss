@@ -1,0 +1,22 @@
+@import "variables";
+
+.collapsible-body {
+    display: block !important;
+    font-family: "Josefin Sans", Arial;
+}
+.collapsible {
+    &-header {
+        background-color: $grey-light;
+        border: 2px solid $grey;
+        display: flex;
+        justify-content: space-between;
+        font-family: "Josefin Sans", Arial;
+        &:hover {
+            background-color: $green;
+            color: $white;
+        }
+    }
+    &-title {
+        text-align: center;
+    }
+}
