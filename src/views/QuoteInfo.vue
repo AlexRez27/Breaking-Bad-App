@@ -78,7 +78,7 @@ export default {
         flex-direction: column;
         &__block{
         text-align: center;
-}
+        }
         &__card{
             margin: 0 auto;
             width: 50%;
