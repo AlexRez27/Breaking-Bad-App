@@ -1,9 +1,9 @@
 # breaking-bed-qberry
 
-1. На главной странице сделать поле поиска, где можно ввести: название эпизода, имя персонажа, кусок цитаты, умерших. В результате должно показывать карточки (найденные) по категориям
-2. На странице персонажа сделать таймлайн: рождение, связанные с ним эпизоды и смерти, а также в конце текущий статус (да, у него нет даты) с иконкой
-3. Создать список занятий (occupation) и персонажей, занимающихся ними
-4. При помощи [http://www.omdbapi.com/](http://www.omdbapi.com/) вывести информацию о сериале (в т.ч. постер), учитывая что IMDb ID (i) = tt0903747 (* apikey=88e836ce)
+1. On the main page there is a search field where you can do: episode title, character name, a piece of a quote, deceased. As a result, it should show cards (found) by category
+2. On the character page, make a timeline: birth, episodes and deaths associated with him, as well as in the current status (yes, he does not have a date) with an icon
+3. Create a list of activities and characters involved in them
+4. Using http://www.omdbapi.com/ display information about the series (including the poster), taking into account that IMDb ID (i) = tt0903747
 ## Project setup
 ```
 npm install
